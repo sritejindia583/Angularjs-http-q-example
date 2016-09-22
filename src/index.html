@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en"ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS - example - using both $http and $q services</title>
+    <script src="../libs/angular.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-controller="myJointController">
+    <ul ng-repeat="c in countries">
+        <li>{{c.name}}, {{c.id}}</li>
+    </ul>
+</body>
+</html>
